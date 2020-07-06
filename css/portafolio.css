@@ -5,41 +5,9 @@
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.html .body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  scroll-padding-block: 0;
-}
-
 .main-container {
   display: flex;
   flex-direction: row;
-}
-
-.card {
-  background: red;
-}
-
-.card-body {
-  background: whitesmoke;
-}
-
-.card-text {
-  background: whitesmoke;
-}
-
-.card-title {
-  background: whitesmoke;
 }
 
 .card-personal {
@@ -71,12 +39,6 @@
 
 .btn-small-CV {
   color: black;
-}
-
-.body {
-  background: linear-gradient(#ccc, #fff);
-  font: 14px sans-serif;
-  padding: 20px;
 }
 
 .letter {
