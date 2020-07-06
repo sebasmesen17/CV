@@ -957,7 +957,7 @@
     height: 320px;
     margin-bottom: 180px;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   .bubble-wrap {
     position: fixed;
@@ -971,7 +971,7 @@
   .letter {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 45px;
+    margin-left: 65px;
     margin-top: 700px;
     max-width: 550px;
     min-height: 300px;
@@ -997,8 +997,8 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
   }
   .bubble-wrap {
     position: fixed;
-    width: 250px;
-    height: 250px;
+    width: 1000px;
+    height: 1000px;
     margin-top: 70px;
     margin-left: 130px;
     transform-style: preserve-3d;
@@ -1015,10 +1015,6 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
     padding: 24px;
     width: 290px;
     margin-bottom: 150px;
-  }
-
-  .paper-cv{
-    width: 8000px;
   }
 }
 
