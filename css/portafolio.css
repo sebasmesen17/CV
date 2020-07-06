@@ -914,7 +914,7 @@
   background: #d9a026;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   .main-container {
     flex-direction: column;
   }
@@ -923,7 +923,7 @@
     height: 320px;
     margin-bottom: 180px;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .bubble-wrap {
     position: fixed;
@@ -937,7 +937,7 @@
   .letter {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 60px;
+    margin-left: 45px;
     margin-top: 700px;
     max-width: 550px;
     min-height: 300px;
@@ -945,4 +945,7 @@
     width: 290px;
     margin-bottom: 150px;
   }
+}
+@media (max-width: 750px) {
+
 }
