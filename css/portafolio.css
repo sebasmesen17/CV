@@ -911,14 +911,14 @@
     height: 320px;
     margin-bottom: 180px;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 40px;
   }
   .bubble-wrap {
     position: fixed;
     width: 250px;
     height: 250px;
     margin-top: 70px;
-    margin-left: 95px;
+    margin-left: 80px;
     transform-style: preserve-3d;
     transform-origin: center center;
   }
