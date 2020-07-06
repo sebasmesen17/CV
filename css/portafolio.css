@@ -9,7 +9,9 @@
   display: flex;
   flex-direction: row;
 }
-
+p{
+  text-align: justify;
+}
 .card-body {
   background: whitesmoke;
 }
@@ -919,9 +921,13 @@
 
 
 @media (pointer:coarse) {
+  .p{
+    text-align: justify;
+  }
   .main-container {
     flex-direction: column;
   }
+
   .card-personal {
     width: 320px;
     height: 320px;
@@ -952,6 +958,9 @@
 }
 
 @media only screen and (max-device-width : 360px){
+  .p{
+    text-align: justify;
+  }
   .main-container {
     flex-direction: column;
   }
@@ -985,6 +994,45 @@
 }
 
 @media only screen and (max-device-width : 375px){
+  .p{
+    text-align: justify;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .card-personal {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 180px;
+    margin-top: 10px;
+    margin-left: 26px;
+  }
+  .bubble-wrap {
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 85px;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+  }
+  .letter {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-left: 42px;
+    margin-top: 700px;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    width: 290px;
+    margin-bottom: 150px;
+  }
+}
+
+@media only screen and (max-device-width : 375px){
+  .p{
+    text-align: justify;
+  }
   .main-container {
     flex-direction: column;
   }
