@@ -47,7 +47,7 @@
   width: 1000px;
   height: 800px;
   margin-top: 160px;
-  margin-left: 300px;
+  margin-left: 200px;
   position: fixed;
 }
 
@@ -83,7 +83,7 @@
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   margin: 26px auto 0;
-  margin-left: 850px;
+  margin-left: 750px;
   max-width: 550px;
   min-height: 300px;
   padding: 24px;
