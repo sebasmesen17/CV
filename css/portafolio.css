@@ -10,6 +10,18 @@
   flex-direction: row;
 }
 
+.card-body {
+  background: whitesmoke;
+}
+
+.card-text {
+  background: whitesmoke;
+}
+
+.card-title {
+  background: whitesmoke;
+}
+
 .card-personal {
   float: left;
   width: 1000px;
