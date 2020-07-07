@@ -1064,3 +1064,43 @@ p{
     margin-bottom: 150px;
   }
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .p{
+      text-align: justify;
+    }
+    .main-container {
+      flex-direction: column;
+    }
+    .card-personal {
+      width: 1000px;
+      height: 1000px;
+      margin-bottom: 180px;
+      margin-top: 5px;
+      margin-left: 80px; 
+    }
+    .bubble-wrap {
+      position: fixed;
+      width: 250px;
+      height: 250px;
+      margin-top: 70px;
+      margin-left: 85px;
+      transform-style: preserve-3d;
+      transform-origin: center center;
+    }
+    .letter {
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      margin-left: 80px;
+      margin-top:650px;
+      max-width: 550px;
+      min-height: 300px;
+      padding: 24px;
+      width: 500px;
+      margin-bottom: 380px;
+    }
+}
+
