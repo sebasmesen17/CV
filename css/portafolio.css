@@ -938,7 +938,7 @@ p {
     width: 250px;
     height: 250px;
     margin-top: 70px;
-    margin-left: 855px;
+    margin-left: 55px;
     transform-style: preserve-3d;
     transform-origin: center center;
   }
@@ -1006,11 +1006,7 @@ p {
     margin-bottom: 180px;
     margin-top: 10px;
     margin-left: 29px;
-    width: 320px;
-    height: 320px;
-    margin-bottom: 180px;
-    margin-top: 10px;
-    margin-left: 29px;
+
   }
   .bubble-wrap {
     position: fixed;
@@ -1020,12 +1016,7 @@ p {
     margin-left: 85px;
     transform-style: preserve-3d;
     transform-origin: center center;
-    position: fixed;
-    width: 250px;
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 85px;
-    transform-style: preserve-3d;
+
     transform-origin: center center;
   }
   .letter {
@@ -1039,14 +1030,7 @@ p {
     width: 290px;
     margin-bottom: 23px;
     background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 44px;
-    margin-top: 547px;
-    max-width: 550px;
-    min-height: 300px;
-    padding: 24px;
-    width: 290px;
-    margin-bottom: 2px;
+ 
   }
 }
 
