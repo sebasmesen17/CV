@@ -105,6 +105,7 @@ p {
 }
 
 .bubble-wrap {
+
   width: 250px;
   height: 250px;
   transform-style: preserve-3d;
