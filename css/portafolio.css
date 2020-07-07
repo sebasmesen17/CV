@@ -1080,7 +1080,7 @@ p{
       height: 1000px;
       margin-bottom: 180px;
       margin-top: 5px;
-      margin-left: 80px; 
+      margin-left: 160px; 
     }
     .bubble-wrap {
       position: fixed;
@@ -1094,7 +1094,7 @@ p{
     .letter {
       background: #fff;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      margin-left: 80px;
+      margin-left: 150px;
       margin-top:650px;
       max-width: 550px;
       min-height: 300px;
