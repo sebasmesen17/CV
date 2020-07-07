@@ -46,6 +46,9 @@ p {
 .btn-small-CV {
 	color: black;
 }
+.btn-small-telegram {
+	color: #0088cc;
+}
 .letter {
 	background: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -801,7 +804,7 @@ p {
 		background: #d9a026;
 	}
 }
-@media (pointer:coarse) {
+@media (pointer: coarse) {
 	.p {
 		text-align: justify;
 	}
@@ -820,7 +823,7 @@ p {
 		width: 250px;
 		height: 250px;
 		margin-top: 70px;
-		margin-left: 855px;
+		margin-left: 55px;
 		transform-style: preserve-3d;
 		transform-origin: center center;
 	}
@@ -836,7 +839,7 @@ p {
 		margin-bottom: 20px;
 	}
 }
-@media only screen and (max-device-width : 360px) {
+@media only screen and (max-device-width: 360px) {
 	.p {
 		text-align: justify;
 	}
@@ -871,7 +874,7 @@ p {
 		margin-bottom: 23px;
 	}
 }
-@media only screen and (max-device-width : 375px) {
+@media only screen and (max-device-width: 375px) {
 	.p {
 		text-align: justify;
 		text-align: justify;
@@ -886,11 +889,6 @@ p {
 		margin-bottom: 180px;
 		margin-top: 10px;
 		margin-left: 29px;
-		width: 320px;
-		height: 320px;
-		margin-bottom: 180px;
-		margin-top: 10px;
-		margin-left: 29px;
 	}
 	.bubble-wrap {
 		position: fixed;
@@ -900,12 +898,6 @@ p {
 		margin-left: 85px;
 		transform-style: preserve-3d;
 		transform-origin: center center;
-		position: fixed;
-		width: 250px;
-		height: 250px;
-		margin-top: 70px;
-		margin-left: 85px;
-		transform-style: preserve-3d;
 		transform-origin: center center;
 	}
 	.letter {
@@ -919,14 +911,6 @@ p {
 		width: 290px;
 		margin-bottom: 23px;
 		background: #fff;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-		margin-left: 44px;
-		margin-top: 547px;
-		max-width: 550px;
-		min-height: 300px;
-		padding: 24px;
-		width: 290px;
-		margin-bottom: 2px;
 	}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {

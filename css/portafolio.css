@@ -1,5 +1,5 @@
 /*CV*/
-@keyframes move {
+@keyframes move{
   100% {
     transform: translate3d(0, 0, -1000px);
   }
@@ -109,7 +109,6 @@ p {
 }
 
 .bubble-wrap {
-
   width: 250px;
   height: 250px;
   transform-style: preserve-3d;
@@ -1011,7 +1010,6 @@ p {
     margin-bottom: 180px;
     margin-top: 10px;
     margin-left: 29px;
-
   }
   .bubble-wrap {
     position: fixed;
@@ -1021,7 +1019,6 @@ p {
     margin-left: 85px;
     transform-style: preserve-3d;
     transform-origin: center center;
-
     transform-origin: center center;
   }
   .letter {
@@ -1035,7 +1032,6 @@ p {
     width: 290px;
     margin-bottom: 23px;
     background: #fff;
- 
   }
 }
 
