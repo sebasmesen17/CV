@@ -933,21 +933,21 @@ p{
     height: 320px;
     margin-bottom: 180px;
     margin-top: 10px;
-    margin-left: 45px;
+    margin-left: 48px;
   }
   .bubble-wrap {
     position: fixed;
     width: 250px;
     height: 250px;
     margin-top: 70px;
-    margin-left: 85px;
+    margin-left: 855px;
     transform-style: preserve-3d;
     transform-origin: center center;
   }
   .letter {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 60px;
+    margin-left: 63px;
     margin-top: 547px;
     max-width: 550px;
     min-height: 300px;
@@ -969,7 +969,7 @@ p{
     height: 320px;
     margin-bottom: 180px;
     margin-top: 10px;
-    margin-left: 23px;
+    margin-left: 26px;
   }
   .bubble-wrap {
     position: fixed;
@@ -989,7 +989,7 @@ p{
     min-height: 300px;
     padding: 24px;
     width: 290px;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
   }
 }
 
@@ -1005,7 +1005,7 @@ p{
     height: 320px;
     margin-bottom: 180px;
     margin-top: 10px;
-    margin-left: 26px;
+    margin-left: 29px;
   }
   .bubble-wrap {
     position: fixed;
@@ -1025,7 +1025,7 @@ p{
     min-height: 300px;
     padding: 24px;
     width: 290px;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
   }
 }
 
@@ -1041,7 +1041,7 @@ p{
     height: 320px;
     margin-bottom: 180px;
     margin-top: 10px;
-    margin-left: 26px;
+    margin-left: 29px;
   }
   .bubble-wrap {
     position: fixed;
@@ -1055,13 +1055,13 @@ p{
   .letter {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 42px;
+    margin-left: 44px;
     margin-top: 547px;
     max-width: 550px;
     min-height: 300px;
     padding: 24px;
     width: 290px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
   }
 }
 
