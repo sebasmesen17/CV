@@ -948,7 +948,7 @@ p{
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-left: 60px;
-    margin-top: 530px;
+    margin-top: 547px;
     max-width: 550px;
     min-height: 300px;
     padding: 24px;
@@ -984,7 +984,7 @@ p{
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-left: 39px;
-    margin-top: 530px;
+    margin-top: 547px;
     max-width: 550px;
     min-height: 300px;
     padding: 24px;
@@ -1020,7 +1020,7 @@ p{
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-left: 42px;
-    margin-top: 530px;
+    margin-top: 547px;
     max-width: 550px;
     min-height: 300px;
     padding: 24px;
@@ -1056,12 +1056,12 @@ p{
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-left: 42px;
-    margin-top: 530px;
+    margin-top: 547px;
     max-width: 550px;
     min-height: 300px;
     padding: 24px;
     width: 290px;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
   }
 }
 
@@ -1094,7 +1094,7 @@ p{
     .letter {
       background: #fff;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      margin-left: 150px;
+      margin-left: 160px;
       margin-top:610px;
       max-width: 550px;
       min-height: 300px;
