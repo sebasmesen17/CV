@@ -1,5 +1,5 @@
 /*CV*/
-@keyframes move{
+@keyframes move {
   100% {
     transform: translate3d(0, 0, -1000px);
   }
@@ -998,10 +998,8 @@ p {
 @media only screen and (max-device-width: 375px) {
   .p {
     text-align: justify;
-    text-align: justify;
   }
   .main-container {
-    flex-direction: column;
     flex-direction: column;
   }
   .card-personal {
@@ -1024,7 +1022,7 @@ p {
   .letter {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 42px;
+    margin-left: 43.5px;
     margin-top: 547px;
     max-width: 550px;
     min-height: 300px;
