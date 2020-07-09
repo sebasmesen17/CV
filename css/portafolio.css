@@ -926,7 +926,8 @@ p {
   background: #d9a026;
 }
 
-@media (pointer: coarse) {
+
+@media only screen and (max-device-width: 600px) {
   .p {
     text-align: justify;
   }
@@ -934,90 +935,82 @@ p {
     flex-direction: column;
   }
   .card-personal {
-    width: 320px;
-    height: 320px;
+    width: 80%;
     margin-bottom: 180px;
-    margin-top: 10px;
-    margin-left: 48px;
+    margin-top: 5%;
+    margin-left: 9.5%;
   }
-  .bubble-wrap {
-    position: fixed;
-    width: 250px;
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 55px;
-    transform-style: preserve-3d;
-    transform-origin: center center;
-  }
-  .letter {
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 63px;
-    margin-top: 547px;
-    max-width: 550px;
-    min-height: 300px;
-    padding: 24px;
-    width: 290px;
-    margin-bottom: 20px;
-  }
+
+  
+.letter:before {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-1deg);
 }
 
-@media only screen and (max-device-width: 360px) {
-  .p {
-    text-align: justify;
-  }
-  .main-container {
-    flex-direction: column;
-  }
-  .card-personal {
-    width: 320px;
-    height: 320px;
-    margin-bottom: 180px;
-    margin-top: 10px;
-    margin-left: 26px;
-  }
-  .bubble-wrap {
-    position: fixed;
-    width: 250px;
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 85px;
-    transform-style: preserve-3d;
-    transform-origin: center center;
-  }
-  .letter {
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 39px;
-    margin-top: 547px;
-    max-width: 550px;
-    min-height: 300px;
-    padding: 24px;
-    width: 290px;
-    margin-bottom: 23px;
-  }
+.letter:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1deg);
 }
+.letter {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-left: 9.5%;
+  margin-top: 150%;
 
-@media only screen and (max-device-width: 375px) {
+  padding: 24px;
+  width: 80%;
+  margin-bottom: 45%;
+  background: #fff;
+}
+}
+  .bubble-wrap {
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 15%;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    transform-origin: center center;
+  }
+
+
+
+@media only screen and (max-device-width: 1000px) and (orientation: landscape) {
   .p {
     text-align: justify;
   }
   .main-container {
-    flex-direction: column;
+    flex-direction: row;
   }
+
   .card-personal {
-    width: 320px;
-    height: 320px;
+    position: absolute;
+    box-sizing: content-box;
+    width: 85%;
     margin-bottom: 180px;
-    margin-top: 10px;
-    margin-left: 29px;
+    margin-top: 0.5%;
+    margin-left: 32%;
   }
+  
   .bubble-wrap {
     position: fixed;
-    width: 250px;
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 85px;
+    margin-top: 1%;
+    margin-left: 1%;
     transform-style: preserve-3d;
     transform-origin: center center;
     transform-origin: center center;
@@ -1025,49 +1018,12 @@ p {
   .letter {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 43.5px;
-    margin-top: 547px;
-    max-width: 550px;
-    min-height: 300px;
+    margin-left: 40%;
+    margin-top: 95%;
     padding: 24px;
-    width: 290px;
+    width: 80%;
     margin-bottom: 23px;
     background: #fff;
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .p {
-    text-align: justify;
-  }
-  .main-container {
-    flex-direction: column;
-  }
-  .card-personal {
-    width: 1000px;
-    height: 1000px;
-    margin-bottom: 180px;
-    margin-top: 5px;
-    margin-left: 160px;
-  }
-  .bubble-wrap {
-    position: fixed;
-    width: 250px;
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 160px;
-    transform-style: preserve-3d;
-    transform-origin: center center;
-  }
-  .letter {
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-left: 160px;
-    margin-top: 640px;
-    max-width: 550px;
-    min-height: 300px;
-    padding: 24px;
-    width: 500px;
-    margin-bottom: 20px;
-  }
-}
