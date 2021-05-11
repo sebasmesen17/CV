@@ -5,11 +5,18 @@
 	}
 }
 
+h5, pre, h2{
+	text-align: center;
+}
+
+
+
 body {
 	background-color: #2234ae;
 	background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
 	/*Happy retierd*/
 	}
+	
 
 .main-container {
 	display: flex;
